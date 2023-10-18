@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+
+  <link href="/dist/output.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class=" w-3/4 my-0 mx-auto bg-fondo">
+  <!-- Fondo -->
+
+  <div class="flex justify-center items-center h-screen">
+    <!-- Caja centrar -->
+
+    <div class="bg-white shadow-2xl h-vh80 w-vw80 flex justify-center items-center absolute">
+      <!-- Caja principal -->
+
+
+
+      <div
+        class="shadow-2xl p-5 rounded-3xl bg-gradient-to-b from-lavender to-blueresult w-72 h-[25.5rem] text-center relative z-10 left-4">
+        <!-- Caja resultado -->
+
+        <h2 class="text-2xl font-semibold text-gray-300 ">Your Result</h2>
+
+        <div class="mt-5 flex justify-center items-center">
+          <div class="h-40 w-40 rounded-full bg-gradient-to-b from-tobutton to-frombutton">
+            <span class="block text-5xl text-white font-bold mt-10 mb-3">76</span>
+            <span class="text-slate-400">of 100</span>
+          </div>
+        </div>
+
+
+        <h2 class="mt-5 text-2xl text-white font-bold">Great</h2>
+        <p class="inline-block w-56 mt-2 text-gray-400">You scored higher than 65% of the people who have taken these
+          tests.
+        </p>
+
+      </div>
+
+
+
+      <div class="shadow-2xl p-5 rounded-3xl rounded-l-none w-80 pl-10">
+        <!-- Caja contenido stats -->
+
+        <h2 class="text-2xl font-semibold">Summary</h2>
+        <!-- Título -->
+
+        <div class="flex justify-between items-center w-60 bg-red-100 h-12 p-2 rounded-md mt-5">
+          <div>
+            <span class="m-1"><img class="inline" src="./assets/images/icon-reaction.svg"></span>
+            <span class="m-1 text-red-400 font-semibold">Reaction</span>
+          </div>
+          <div>
+            <span class="font-semibold">80</span> <span class="text-gray-400">/ 100</span>
+          </div>
+        </div>
+        <!-- Reaction -->
+
+        <div class="flex justify-between items-center w-60 bg-yellow-100 h-12 p-2 rounded-md mt-3">
+          <div>
+            <span class="m-1"><img class="inline" src="./assets/images/icon-memory.svg"></span>
+            <span class="m-1 text-yellow-500 font-semibold">Memory</span>
+          </div>
+
+          <div><span class="font-semibold">92</span> <span class="text-gray-400">/ 100</span></div>
+        </div>
+        <!-- Memory -->
+
+        <div class="flex justify-between items-center w-60 bg-green-100 h-12 p-2 rounded-md mt-3">
+          <div>
+            <span class="m-1"><img class="inline" src="./assets/images/icon-verbal.svg"></span>
+            <span class="m-1 text-green-500 font-semibold">Verbal</span>
+          </div>
+          <div><span class="font-semibold">61</span> <span class="text-gray-400">/ 100</span></div>
+        </div>
+        <!-- Verbal -->
+
+        <div class="flex justify-between items-center w-60 bg-blue-100 h-12 p-2 rounded-md mt-3 mb-5">
+          <div>
+            <span class="m-1"><img class="inline" src="./assets/images/icon-visual.svg"></span>
+            <span class="m-1 text-blue-500 font-semibold">Visual</span>
+          </div>
+          <div><span class="font-semibold">72</span> <span class="text-gray-400">/ 100</span></div>
+        </div>
+        <!-- Visual -->
+
+        <button
+          class="rounded-full bg-slate-700 px-10 py-5 w-60 text-white font-semibold hover:bg-gradient-to-b from-tobutton to-frombutton">Continue</button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- My code -->
+
+  <br>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
